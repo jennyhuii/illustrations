@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+				initial-scale=1.0">
+    <title>Moon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 0, 0);
+
+        }
+
+        div.new {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 100px;
+            border: 1px solid rgb(194, 191, 191);
+            border-radius: 50%;
+        }
+
+        div.crescent {
+            position: absolute;
+            top: 48%;
+            left: 43%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 100px;
+            box-shadow: -15px 15px 0 5px rgb(194, 191, 191);
+            border-radius: 50%;
+        }
+
+        div.half {
+            position: absolute;
+            top: 42%;
+            left: 50%;
+            width: 50px;
+            height: 100px;
+            background-color: rgb(194, 191, 191);
+            border-radius: 100px 0 0 100px;
+        }
+
+        div.gibbous {
+            position: absolute;
+            top: 42%;
+            left: 60%;
+            width: 50px;
+            height: 100px;
+            background-color: rgb(194, 191, 191);
+            border-radius: 100px 0 0 100px;
+        }
+
+        div.gibbous-shadow {
+            position: absolute;
+            top: 42%;
+            left: 62%;
+            width: 50px;
+            height: 100px;
+            background: rgb(194, 191, 191);
+            border-radius: 50px / 100px;
+        }
+
+        div.full {
+            position: absolute;
+            top: 42%;
+            left: 70%;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(194, 191, 191);
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="new"></div>
+    <div class="crescent"></div>
+    <div class="half"></div>
+    <div class="gibbous"></div>
+    <div class="gibbous-shadow"></div>
+    <div class="full"></div>
+</body>
+
+</html>
