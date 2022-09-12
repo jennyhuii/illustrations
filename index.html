@@ -17,7 +17,7 @@
         div.new {
             position: absolute;
             top: 50%;
-            left: 30%;
+            left: 10%;
             transform: translate(-50%, -50%);
             height: 100px;
             width: 100px;
@@ -28,7 +28,7 @@
         div.crescent {
             position: absolute;
             top: 48%;
-            left: 43%;
+            left: 23%;
             transform: translate(-50%, -50%);
             height: 100px;
             width: 100px;
@@ -39,7 +39,7 @@
         div.half {
             position: absolute;
             top: 42%;
-            left: 50%;
+            left: 30%;
             width: 50px;
             height: 100px;
             background-color: rgb(194, 191, 191);
@@ -49,7 +49,7 @@
         div.gibbous {
             position: absolute;
             top: 42%;
-            left: 60%;
+            left: 40%;
             width: 50px;
             height: 100px;
             background-color: rgb(194, 191, 191);
@@ -59,7 +59,7 @@
         div.gibbous-shadow {
             position: absolute;
             top: 42%;
-            left: 62%;
+            left: 42%;
             width: 50px;
             height: 100px;
             background: rgb(194, 191, 191);
@@ -69,11 +69,52 @@
         div.full {
             position: absolute;
             top: 42%;
-            left: 70%;
+            left: 50%;
             width: 100px;
             height: 100px;
             background-color: rgb(194, 191, 191);
             border-radius: 100px;
+        }
+
+        div.gibbous2 {
+            position: absolute;
+            top: 42%;
+            left: 60%;
+            width: 50px;
+            height: 100px;
+            background-color: rgb(194, 191, 191);
+            border-radius: 100px 0 0 100px;
+        }
+
+        div.gibbous-shadow2 {
+            position: absolute;
+            top: 42%;
+            left: 62%;
+            width: 50px;
+            height: 100px;
+            background: rgb(194, 191, 191);
+            border-radius: 50px / 100px;
+        }
+
+        div.half2 {
+            position: absolute;
+            top: 42%;
+            left: 72%;
+            width: 50px;
+            height: 100px;
+            background-color: rgb(194, 191, 191);
+            border-radius: 0 100px 100px 0;
+        }
+
+        div.crescent2 {
+            position: absolute;
+            top: 47%;
+            left: 83%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 100px;
+            box-shadow: 15px 15px 0 5px rgb(194, 191, 191);
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -85,6 +126,10 @@
     <div class="gibbous"></div>
     <div class="gibbous-shadow"></div>
     <div class="full"></div>
+    <div class="gibbous2"></div>
+    <div class="gibbous-shadow2"></div>
+    <div class="half2"></div>
+    <div class="crescent2"></div>
 </body>
 
 </html>
